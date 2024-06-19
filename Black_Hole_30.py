@@ -501,7 +501,8 @@ class compression:
                                                             
                                     INFO=Extract
 
-                                                 
+                                    En=int(INFO[:21],2)
+                                    INFO=INFO[21:]                                                
                                     
                                     En2=0
                                         
